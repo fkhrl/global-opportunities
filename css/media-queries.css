@@ -1,0 +1,241 @@
+ @media screen and (max-width: 250px) {
+.logoBar .logo img, .ourAim img {
+	width: 50%!important;
+	height: auto;
+}
+
+}
+@media only screen and (min-width: 700px) and (max-width: 850px) {
+.contentHome li {
+	width: 33%!important;
+	padding: 10px!important;
+	height: auto;
+	margin: 0 0 10px 0;
+	border: 0px solid red;
+}
+.contentHome li img {
+	width: 100%!important;
+}
+}
+@media screen and (max-width: 900px) {
+.topBar .rightColTB {
+	width: 15%;
+	border: 0px solid red;
+	visibility: hidden;
+}
+.topBar .leftColTB{
+	width: 80%;
+	border: 0px solid red;
+	font-size: 12px;
+}
+.topBar .fb-top, .topBar .twt-top, .topBar .linkedin-top, .topBar .gplus-top, .topBar .youtube-top, .topBar .rss-top {
+	border: 0px solid red;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.topBar .rightColTB img {
+	max-width: 20%;
+	height: auto;
+}
+.logoBar {
+	height: auto;
+}
+.logoBar .logo {
+	background: #00356c url(../images/global-opportunites-logo.jpg) top center no-repeat;
+	width: 100%;
+	height: 106px;
+}
+.logoBar .submenuList {
+	width: 100%;
+	height: auto;
+	float: left;
+	border: none;
+	margin: 5px 0;
+	border: 0px solid red;
+	font-size: 10px;
+	text-align: center;
+}
+.logoBar .submenuList li {
+	width: auto;
+	padding: 5px;
+	border: 1px solid #e5e5e5;
+	font-size: 10px;
+	text-align: center;
+}
+.logoBar .submenuList li a {
+	color: #7a7a7a;
+	font-size: 12px;
+	width: 50%;
+	font-size: 10px;
+	text-align: center;
+}
+.logoBar .mainMenu {
+	width: 100%;
+	background: #00356c;
+	float: right;
+	border: 0px solid red;
+}
+.carousel-caption {
+	top: 5%;
+}
+.bannerCol {
+	width: 80%;
+	height: 500px;
+	border: 0px solid red;
+}
+.bannerCol h1 {
+	font-size: 14px;
+	font-weight: 600;
+}
+.bannerCol h2 {
+	font-size: 20px;
+}
+.bannerCol .bannerButton {
+	width: 150px;
+	height: auto;
+	margin: 0 0 5px 0;
+}
+.bannerCol .bannerDate {
+	height: auto;
+	font-size: 11px;
+	text-align: left;
+	text-transform: capitalize;
+}
+.bannerCol .bannerDate span {
+	font-size: 12px;
+	line-height: 14px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.bannerCol .bannerPlace {
+	height: 0;
+	margin: 0;
+	padding: 2px;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+.bannerCol .bannerPlace span {
+	font-size: 12px;
+	line-height: 14px;
+	padding: 2px;
+	text-transform: capitalize;
+}
+.bannerInner {
+	width: 100%;
+	height: 200px;
+}
+.bannerInnerSer {
+	width: 100%;
+	height: 200px;
+}
+.bannerInner2Ser {
+	width: 100%;
+	height: 150px;
+}
+.bannerInnerGO {
+	padding-top: 5%;
+	font-family: "Segoe Condensed";
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #039;
+}
+.bannerInnertxt {
+	font-family: "Segoe Condensed";
+	font-size: 20px;
+	font-weight: 400;
+	color: #666;
+}
+.bannerInnertxt1 {
+	padding-top: 11%;
+	padding-bottom: 3%;
+	font-family: "Segoe Condensed";
+	font-size: 16px;
+	font-weight: 600;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.bannerInnertxt2 {
+	padding-top: 7%;
+	font-family: "Segoe Condensed";
+	font-size: 30px;
+	font-weight: 500;
+	color: #039;
+	text-transform: uppercase;
+}
+.col-70 {
+	width: 100%;
+	float: left;
+	border: 0px solid red;
+}
+.col-30 {
+	width: 100%;
+	float: right;
+	border: 0px solid red;
+}
+.col-33 {
+	width: 100%;
+	float: right;
+	border: 0px solid red;
+}
+.col-50 {
+	width: 100%;
+	float: left;
+	padding: 0 15px 0 0;
+	margin: 0 0 10px 0;
+}
+.servicesHome li {
+	width: 100%;
+	height: auto;
+}
+.contentHome li {
+	width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+.contentHome li:nth-child(2) {
+	padding: 0;
+}
+.contentHome li:nth-child(3) {
+	width: 100%;
+	text-align: left;
+}
+.preFooter .footerBoxTop {
+	width: 50%;
+	height: 150px;
+	float: left;
+	margin: 0;
+	padding: 10px;
+	border: 0px solid red;
+}
+.preFooter .footerBoxBtm {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 10px;
+	border: 0px solid red;
+}
+.preFooter .footerBox {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 10px;
+	border: 0px solid red;
+}
+.footer .copyright {
+	width: 100%;
+}
+.footer .rightColTB{
+	width: 15%;
+	visibility: hidden;
+}
+.footer .leftColTB {
+	width: 85%;
+	font-size: 10px;
+	color: #76a5d5;
+	float: left;
+	padding: 0px 5px;
+
+}
+}

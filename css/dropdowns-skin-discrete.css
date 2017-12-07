@@ -1,0 +1,108 @@
+/* fonts */
+.dropdowns {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+/* colors */
+/* ------ */
+/* togle menu button for narrow screens */
+.toggleMenu {
+	background: #666;
+	color: #fff;
+}
+/* general navigation background colors */
+.nav {
+	background: transparent;
+	border: 0px solid #cccccc;
+}
+/* general navigation link font color */
+.nav a {
+	color: #666;
+	text-decoration: none;
+}
+.nav a.active {
+	color: #036;
+	text-decoration: none;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #036;
+}
+/* first level items borders */
+.nav > li {
+}
+/* navigation hover colors */
+.nav a:hover {
+	text-decoration: none;
+}
+/* second level navigation colors */
+.nav li li a {
+	border-bottom: 1px solid #c0c0c0;
+	width: auto;
+	color: #FFF;
+	background-color: #003366;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: 11px;
+}
+.nav li li a:hover {
+	color: #FF3;
+}
+/* third level navigation colors */
+.nav li li li a {
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 4px solid #ffffff;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #003366;
+}
+.nav li li li a:hover {
+	color: #FF3;
+}
+/* ---------------- */
+/*      layout      */
+/* -----------------*/
+
+/* main div */
+.dropdowns {
+	width: auto;
+}
+/* small screens menu button */
+a.toggleMenu {
+	padding: 10px 10px;
+	width: 100%;
+	text-align: left;
+	text-decoration: none;
+}
+/* second and third level menus */
+.nav ul {
+	width: 15em;
+}
+/* general paddings and other stuff */
+.nav a {
+	padding: 5px 15px;
+}
+/* parents that have submenus */
+.nav > li > .parent {
+	padding-right: 10px;
+	padding-left: 10px;
+	background-position: 90% 50%;
+}
+
+/* small screen adjustments*/
+@media screen and (max-width: 768px) {
+.nav ul {
+	width: 100%;
+	background-color: #036;
+	color: #FFF;
+}
+.nav {
+	width: 100%;
+}
+.nav img {
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+	padding-top: 0px;
+}

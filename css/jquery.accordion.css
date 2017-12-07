@@ -1,0 +1,91 @@
+
+/*##VERTICAL ACCORDION##*/
+.accordion-ver>ul, .accordion-hor>ul {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+.accordion-ver>ul>li {
+	display: block;
+	margin: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	width: 100%;
+ *margin-bottom: -4px; /* IE6 e IE7 */
+	background-color: #F4F4F4;
+	border: 1px solid #F0F0F0;
+}
+.accordion-ver1>ul>li {
+	display: block;
+	margin: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	width: 100%;
+ *margin-bottom: -4px; /* IE6 e IE7 */
+	background-color: #F4F4F4;
+	border: 1px solid #F0F0F0;
+}
+.accordion-ver>ul>li:hover {
+	cursor: pointer;
+}
+.accordion-ver>ul>li.last {
+	border: 1px solid #F0F0F0;
+}
+.accordion-ver>ul>li>h1 {
+	position: absolute;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0 0 0 10px;
+	top: 0;
+	left: 0;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+.accordion-ver>ul>li>h1:hover {
+	cursor: pointer;
+}
+.accordion-ver>ul>li>div {
+	display: none;
+	overflow: hidden;
+	background-color: #FFF;
+	border: 1px solid #F0F0F0;
+}
+.accordion-ver:hover>ul>li:hover>div {
+	cursor: default;
+}
+.accordion-ver>ul>li>div>span {
+	padding: 10px;
+	display: block;
+	text-align: left !important;
+	line-height: normal;
+}
+.accordion-ver>ul>li>span.numericTab {
+	position: absolute;
+	display: block;
+	top: 0;
+	padding: 0 10px 0 0;
+	float: right;
+	margin: 0;
+	right: 0;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+	background: #cccccc;
+}
+.accordion-ver>ul>li>i {
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 0;
+	padding: 0 10px 0 0;
+	float: right;
+	margin: 0;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
